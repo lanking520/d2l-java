@@ -32,4 +32,4 @@ jobs:
         - name: Run canary tests
           run: |
             cd chapter_multilayer-perceptrons
-            jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=2000 mlp-djl.ipynb
+            jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=2000 mlp.ipynb
